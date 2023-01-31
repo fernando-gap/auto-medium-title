@@ -1,0 +1,17 @@
+{
+  "name": "auto-medium-title",
+  "version": "0.0.1",
+  "description": "A tool for me not to forget about my diary medium articles title",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Fernando A",
+  "license": "MIT",
+  "dependencies": {
+    "bree": "^9.1.3",
+    "dotenv": "^16.0.3",
+    "puppeteer": "^19.6.2"
+  }
+}
