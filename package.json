@@ -12,6 +12,7 @@
   "dependencies": {
     "bree": "^9.1.3",
     "dotenv": "^16.0.3",
-    "puppeteer": "^19.6.3"
+    "puppeteer": "^19.6.3",
+    "winston": "^3.8.2"
   }
 }
