@@ -1,0 +1,15 @@
+[Unit]
+Description=Daily medium title at 13:00
+
+[Service]
+Type=simple
+Environment="NODE_ENV=production MEDIUM_DIR=<directory>"
+ExecStart="$MEDIUM_DIR"
+User=god
+Group=wheel
+Restart=on-failure
+RestartSec=10
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
